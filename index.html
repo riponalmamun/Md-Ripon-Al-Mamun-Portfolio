@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Md Ripon Al Mamun</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Md Ripon Al Mamun</span>
+          </h2>
+          <p class="text-muted">
+            Hello! I'm a passionate Data Scientist and Web Developer with hands-on 
+            experience in building intelligent and user-centric solutions. I have 
+            worked on diverse projects, applying my expertise in Machine Learning, 
+            Deep Learning, and Full-Stack Development. I thrive on solving real-world 
+            problems through data-driven approaches and innovative web technologies. 
+            My goal is to bridge the gap between data and impactful applications that make a difference.
+          </p>
+<a href="#contact" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+  Hire Me
+</a>
+
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/me.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>🚀 Data Science & AI</h4>
+              <p class="text-muted">
+                I specialize in analyzing complex data sets 
+                and transforming them into actionable insights 
+                that drive smarter decision-making. From machine 
+                learning models to predictive analytics, I develop 
+                intelligent solutions that help businesses unlock 
+                growth, optimize processes, and enhance efficiency. 
+                Whether it's deep learning, NLP, or AI-driven automation, 
+                I bring data to life.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>💻 Web Development & Software Engineering</h4>
+              <p class="text-muted">
+                I design and develop scalable, high-performance websites 
+                and applications that are tailored to your business needs. 
+                With expertise in front-end and back-end development, 
+                I create intuitive, user-friendly interfaces and robust 
+                architectures to ensure a seamless digital experience. 
+                My goal is to combine creativity with functionality for 
+                impactful online solutions.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>🔍 Debugging & Optimization</h4>
+              <p class="text-muted">
+                I am skilled at identifying, diagnosing, and resolving critical bugs 
+                and performance issues in software systems. From fixing UI glitches 
+                to debugging complex back-end logic, I ensure that applications run 
+                smoothly, securely, and efficiently. My approach to debugging not 
+                only resolves existing problems but also prevents future issues 
+                through optimized code and best practices.
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+<!-- Research & Social Profiles Section -->
+<section class="profiles mt-5 pt-5 pb-4" id="profiles">
+  <div class="text-center">
+    <h3>My Research & Professional Profiles</h3>
+    <p class="text-muted">Connect with me through the platforms below</p>
+  </div>
+  <div class="d-flex justify-content-center flex-wrap gap-3 mt-4" data-aos="fade-up">
+    <a href="https://www.researchgate.net/profile/Md-Ripon-Al-Mamun?ev=hdr_xprf" target="_blank" class="btn btn-outline-primary rounded-pill"><i class="bi bi-journal-text"></i> ResearchGate</a>
+    <a href="https://scholar.google.com/citations?hl=en&authuser=5&user=N9_yGkMAAAAJ" target="_blank" class="btn btn-outline-dark rounded-pill"><i class="bi bi-mortarboard"></i> Google Scholar</a>
+    <a href="https://orcid.org/0009-0007-2505-0505" target="_blank" class="btn btn-outline-success rounded-pill"><i class="bi bi-bar-chart-line"></i> ORCID</a>
+    <a href="https://www.ieee.org/profile/myprofile/myprofile.html?refSite=https://ieeexplore.ieee.org&refSiteName=IEEE%20Xplore" target="_blank" class="btn btn-outline-secondary rounded-pill"><i class="bi bi-cpu"></i> IEEE Xplore</a>
+    <a href="https://github.com/riponalmamun" target="_blank" class="btn btn-outline-dark rounded-pill"><i class="bi bi-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/mdriponalmamun/" target="_blank" class="btn btn-outline-primary rounded-pill"><i class="bi bi-linkedin"></i> LinkedIn</a>
+    <a href="https://www.kaggle.com/riponalmamun" target="_blank" class="btn btn-outline-info rounded-pill"><i class="bi bi-graph-up"></i> Kaggle</a>
+  </div>
+</section>
+
+
+
+
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Computer Vision</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Machine Learning & <br>Deep Learning</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">JavaScript, PHP & ReactJS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              Creating Beautiful & Unique Digital Experiences
+
+I specialize in crafting innovative digital solutions that are not only functional but also aesthetically pleasing. My goal is to deliver experiences that leave a lasting impression on users while solving real business challenges. <br><br>
+<b>Data Science & Machine Learning – </b>I analyze complex data sets and build intelligent models to uncover insights, optimize processes, and drive decision-making. <br>
+<b>Expert Web Development –</b> From custom websites to e-commerce platforms, I create responsive and user-centric web solutions that align with your business goals. <br>
+<b>Data-Driven Insights –</b> Leveraging advanced analytics, I transform raw data into actionable insights to enhance business strategies. <br>
+<b>UI/UX Design –</b> I focus on intuitive and user-centric design principles to ensure seamless and engaging digital experiences. <br>
+<b>Bug-Free Code –</b> My debugging expertise ensures that web applications run efficiently, providing a smooth and error-free user experience. <br>
+            </p>
+            <p class="text-muted">
+              To view or download my CV, click on the download CV link below.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Entry Level Data scientist & Web Developer Resume.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+<!-- Portfolio Section Starts Here -->
+<section class="portfolio" id="portfolio">
+  <!-- Portfolio Heading -->
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3>Check My Portfolio</h3>
+  </div>
+
+  <!-- Portfolio Filters -->
+  <div id="myBtnContainer" class="text-center mt-4">
+    <!-- Custom attribute for filtering portfolio items -->
+    <button class="filter-item" data-filter="all">All</button>
+    <button class="filter-item" data-filter="game">Computer Vision</button>
+    <button class="filter-item" data-filter="game">Machine Learning</button>
+    <button class="filter-item" data-filter="game">Deep Learning</button>
+    <button class="filter-item" data-filter="game">Game</button>
+    <button class="filter-item" data-filter="webapp">Web App</button>
+    <button class="filter-item" data-filter="website">Website</button>
+    <button class="filter-item" data-filter="brand">Brand</button>
+  </div>
+
+  <!-- Portfolio Items -->
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+      
+<!-- Portfolio Post 1 -->
+<!-- Portfolio Post 1 -->
+<div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+  <div class="card">
+    <img src="images/Tea Leaf.png" class="card-img-top" alt="Tea Leaf Disease Detection Project" />
+    <div class="card-body text-center">
+      <h4 class="card-title">Tea Leaf Disease Detection Using YOLOv8, YOLOv5, and Faster R-CNN</h4>
+      <span class="badge bg-secondary badge-pill">YOLOv8</span>
+      <span class="badge bg-secondary badge-pill">YOLOv5</span>
+      <span class="badge bg-secondary badge-pill">Faster R-CNN</span>
+      <span class="badge bg-secondary badge-pill mb-2">Plant Disease Detection</span><br />
+      <a href="https://github.com/riponalmamun/Tea-Leaf-Disease-Detection-Using-YOLO-V8" target="_blank" class="link">Click The Github Rep</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+      <!-- Portfolio Post 2 -->
+      <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/mango.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">MangoLeafBD Dataset Classification</h4>
+            <span class="badge bg-secondary badge-pill">Random Forest</span>
+            <span class="badge bg-secondary badge-pill">Decision Tree</span>
+            <span class="badge bg-secondary badge-pill mb-2">Machine Learning</span><br />
+            <a href="#" class="read-more-btn link">Github Repository</a>
+          </div>
+        </div>
+      </div>
+
+<!-- Portfolio Post 3 -->
+<div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+  <div class="card">
+    <img src="images/underwater.png" class="card-img-top" alt="Underwater Plastic Pollution Detection" />
+    <div class="card-body text-center">
+      <h4 class="card-title">Underwater Plastic Pollution Detection Using YOLOv8</h4>
+      <span class="badge bg-secondary badge-pill">YOLOv8</span>
+      <span class="badge bg-secondary badge-pill">Deep Learning</span>
+      <span class="badge bg-secondary badge-pill mb-2">Machine Learning</span><br />
+      <a href="https://github.com/riponalmamun/riponalmamun-Underwater-Plastic-Pollution-Detection-Using-YOLOV8" target="_blank" class="read-more-btn link">Github Repository</a>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Additional Portfolio Items -->
+    <div class="row justify-content-evenly mt-4 px-4">
+
+          
+<!-- Portfolio Post 1 -->
+<div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+  <div class="card">
+    <img src="images/Vehcle.png" class="card-img-top" alt="Car Speed and Counting Project" />
+    <div class="card-body text-center">
+      <h4 class="card-title">Car Speed and Counting</h4>
+      <span class="badge bg-secondary badge-pill">YOLO V8</span>
+      <span class="badge bg-secondary badge-pill">Machine Learning</span>
+      <span class="badge bg-secondary badge-pill mb-2">Deep Learning</span><br />
+      <a href="https://github.com/riponalmamun/Car-Speed-and-Counting" target="_blank" class="link">Github Repository</a>
+    </div>
+  </div>
+</div>
+
+      
+      
+      
+      
+      
+      
+      <!-- Portfolio Post 4 -->
+      <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/piceditor.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">PicEditor App</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">App</span><br />
+            <a href="#" class="read-more-btn link">Read More</a>
+          </div>
+        </div>
+      </div>
+
+<!-- Portfolio Post 5 -->
+<div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+  <div class="card">
+    <img src="images/PackMan Games.png" class="card-img-top" alt="Pacman Game" />
+    <div class="card-body text-center">
+      <h4 class="card-title">Pacman Game</h4>
+      <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+      <span class="badge bg-secondary badge-pill">JavaScript</span>
+      <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+      <a href="https://github.com/riponalmamun/Packman_Games" target="_blank" class="read-more-btn link">Github Repository</a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Portfolio Post 5 -->
+<div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+  <div class="card">
+    <img src="images/Power Bi.png" class="card-img-top" alt="Global Superstore Power BI" />
+    <div class="card-body text-center">
+      <h4 class="card-title">Global Superstore - Power BI Dashboard</h4>
+      <span class="badge bg-secondary badge-pill">Power BI</span>
+      <span class="badge bg-secondary badge-pill">Data Analysis</span>
+      <span class="badge bg-secondary badge-pill mb-2">Visualization</span><br />
+      <a href="https://github.com/riponalmamun/Global-Superstore-2016-Power-BI" target="_blank" class="read-more-btn link">Github Repository</a>
+    </div>
+  </div>
+</div>
+
+
+            <!-- Portfolio Post 5 -->
+      <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/tictactoe.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">TicTacToe Game</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+            <a href="#" class="read-more-btn link">Github Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Post 6 -->
+      <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/lang-translator.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Lang Translator</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Web App</span><br />
+            <a href="#" class="read-more-btn link">Github Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio Section Ends Here -->
+
+
+   <!-- Testimonial Section Starts -->
+<section class="testimonial mt-5 pt-5" id="testimonial">
+  <div class="row justify-content-evenly">
+    
+    <!-- Testimonial Image -->
+    <div class="col-md-4 col-10" data-aos="slide-right">
+      <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+    </div>
+
+    <!-- Testimonial Carousel -->
+    <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+      <div class="heading">
+        <small>Testimonials</small>
+        <h3>Faculty & Expert Reviews</h3>
+
+        <!-- Carousel Component -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            
+            <!-- First Carousel Item -->
+            <div class="carousel-item active">
+              <div class="row justify-content-evenly">
+                <div class="col-2 text-center">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <div class="col-10">
+                  <p class="text-muted">
+                    “Excellent research work! The paper is well-structured, thoroughly researched, and presents insightful findings. The clarity of writing and depth of analysis demonstrate great academic rigor. Keep up the outstanding work!”
+                  </p>
+                  <h4>1. Dr. Shamim H Ripon <br>Professor <br>Department of Computer Science & Engineering</h4> <br>
+                  <h4>2. Dr. Raihan Ul Islam <br>Associate Professor <br>Department of Computer Science & Engineering</h4> <br>
+                  <h4>3. Dr. Mohammad Rifat Ahmmad Rashid<br>Associate Professor <br>Department of Computer Science & Engineering</h4>
+                  <small class="fs-6 text-muted">East West University</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Carousel Item -->
+            <div class="carousel-item">
+              <div class="row justify-content-evenly">
+                <div class="col-2 text-center">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <div class="col-10">
+                  <p class="text-muted">
+                    “Excellent research work! The paper is well-structured, thoroughly researched, and presents insightful findings. The clarity of writing and depth of analysis demonstrate great academic rigor. Keep up the outstanding work!”
+                  </p>
+                  <h4>Dr. Shamim H Ripon <br>Professor <br>Department of Computer Science & Engineering</h4> <br>
+                  <small class="fs-6 text-muted">East West University</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third Carousel Item -->
+            <div class="carousel-item">
+              <div class="row justify-content-evenly">
+                <div class="col-2 text-center">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <div class="col-10">
+                  <p class="text-muted">
+                    “Excellent research work! The paper is well-structured, thoroughly researched, and presents insightful findings. The clarity of writing and depth of analysis demonstrate great academic rigor. Keep up the outstanding work!”
+                  </p>
+                  <h4>Dr. Raihan Ul Islam <br>Associate Professor <br>Department of Computer Science & Engineering</h4> <br>
+                  <small class="fs-6 text-muted">East West University</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Navigation Buttons -->
+          <button class="nextprev-btn rounded-pill prev-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <i class="bi bi-arrow-left-circle-fill prev"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="nextprev-btn rounded-pill next-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <i class="bi bi-arrow-right-circle-fill next"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!-- Testimonial Section Ends -->
+
+
+<!-- Blog Section Starts -->
+<section class="blog mt-5 pb-5" id="blog">
+  <!-- Blog Heading -->
+  <div class="heading text-center pt-5">
+    <small>Latest News</small>
+    <h3>Blog & Articles</h3>
+  </div>
+
+  <!-- Blog Posts -->
+  <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+    
+<!-- Blog Post 1 -->
+<div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+  <div class="card">
+    <img src="images/Heart Attack Paper 1.png" class="card-img-top rounded-4" alt="..." />
+    <div class="card-body px-4">
+      <small>By Md Ripon Al Mamun</small><span class="ms-3">Mar 8,2022</span>
+      <h4 class="card-title"><a href="">Machine Learning and Explainable AI to Predict Heart Attacks</a></h4>
+      <p class="text-muted">I recently published a conference paper on "Cardiovascular Health Analysis: 
+        Machine Learning and Explainable AI to Predict Heart Attacks," where I explored advanced machine 
+        learning techniques like Random Forest and XGBoost to predict heart attacks with high accuracy. 
+        The study also incorporates explainable AI methods to provide transparency and insights into model 
+        predictions, aiming to improve early detection and reduce heart attack mortality.</p>
+      <a href="https://ieeexplore.ieee.org/document/11022132/" class="read-more-btn link" target="_blank">Read More</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Blog Post 2 -->
+<div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+  <div class="card">
+    <img src="images/ResearchGate Energy 2.png" class="card-img-top rounded-4" alt="..." />
+    <div class="card-body px-4">
+      <small>By Md Ripon Al Mamun</small><span class="ms-3">Mar 8,2022</span>
+      <h4 class="card-title"><a href="https://www.researchgate.net/publication/389167317_Project_Title_Energy-Efficient_Hyperparameter_Tuning_Using_Multi-_Information_Source_Optimization_and_Augmented_Gaussian_Processes_with_Random_Forest_Submitted_By_Group_-6_Energy-Efficient_Hyperparame">Energy-Efficient Hyperparameter Tuning Using Multi-Information Source Optimization and Augmented Gaussian Processes with Random Forest</a></h4>
+      <p class="text-muted">I will be presenting a project titled "Energy-Efficient Hyperparameter 
+        Tuning Using Multi-Information Source Optimization and Augmented Gaussian Processes with Random Forest" 
+        at a conference in February 2025 in Dhaka, Bangladesh. This research introduces a novel hyperparameter 
+        tuning method that combines Multi-Information Source Optimization with Augmented Gaussian Process (MISO-AGP) 
+        and Random Forest (RF). Our approach enhances computational efficiency, reducing resource consumption and 
+        achieving energy savings of up to 70%, providing an efficient solution for optimizing machine learning 
+        models while balancing performance and energy usage.</p>
+      <a href="https://www.researchgate.net/publication/389167317_Project_Title_Energy-Efficient_Hyperparameter_Tuning_Using_Multi-_Information_Source_Optimization_and_Augmented_Gaussian_Processes_with_Random_Forest_Submitted_By_Group_-6_Energy-Efficient_Hyperparame" class="read-more-btn link" target="_blank">Read More</a>
+    </div>
+  </div>
+</div>
+
+<!-- Blog Post 3 -->
+<div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+  <div class="card">
+    <img src="images/Species Classification.png" class="card-img-top rounded-4" alt="Species Classification" />
+    <div class="card-body px-4">
+      <small>By Md Ripon Al Mamun</small><span class="ms-3">Upcoming 2025</span>
+      <h4 class="card-title">
+        <a href="#">Upcoming Journal: Advances in Species Classification</a>
+      </h4>
+      <p class="text-muted">
+        This upcoming journal article explores novel methods in species classification using machine learning 
+        and image processing techniques. The research aims to improve accuracy in identifying species, which is 
+        crucial for biodiversity conservation and ecological studies.
+      </p>
+      <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModalSpecies">
+        Read More
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Blog Post 4 -->
+<div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+  <div class="card">
+    <img src="images/To Do App 4.png" class="card-img-top rounded-4" alt="TO-DO App Screenshot" />
+    <div class="card-body px-4">
+      <small>By Md Ripon Al Mamun</small><span class="ms-3">Jun 23, 2025</span>
+      <h4 class="card-title">
+        <a href="https://github.com/riponalmamun/TO-DO--LIST-APPLICATION-PROJECTS" target="_blank">
+          TO-DO LIST Application
+        </a>
+      </h4>
+      <p class="text-muted">
+        The TO-DO APP is designed to help you stay organized, focused, and productive. 
+        Whether you're managing personal tasks or team projects, this app enables you to efficiently organize 
+        your day with features like a calendar planner, to-do list, Kanban board, and more. It offers a 
+        streamlined way to manage your tasks and projects by allowing you to set deadlines, track progress, 
+        and collaborate with others. With its user-friendly interface, the app ensures that you stay on top 
+        of everything and improve your productivity, one task at a time.
+      </p>
+      <a href="https://github.com/riponalmamun/TO-DO--LIST-APPLICATION-PROJECTS" target="_blank" class="read-more-btn link">
+        View on GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Blog Post 5 -->
+<div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+  <div class="card">
+    <img src="images/Supply Chain.png" class="card-img-top rounded-4" alt="Supply Chain Research" />
+    <div class="card-body px-4">
+      <small>By Md Ripon Al Mamun</small><span class="ms-3">Upcoming 2025</span>
+      <h4 class="card-title">
+        <a href="#">Upcoming Research: Supply Chain Optimization</a>
+      </h4>
+      <p class="text-muted">
+        This upcoming research paper focuses on improving efficiency in supply chain systems using data-driven approaches. 
+        It explores the integration of machine learning techniques to optimize inventory management, forecasting, and logistics. 
+        The study aims to contribute to sustainable and intelligent supply chain solutions for modern industries.
+      </p>
+      <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModalUpcoming">
+        Read More
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Blog Post 6 -->
+<div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+  <div class="card">
+    <img src="images/Heart Disease.png" class="card-img-top rounded-4" alt="Framingham Heart Study" />
+    <div class="card-body px-4">
+      <small>By Md Ripon Al Mamun</small><span class="ms-3">Upcoming 2025</span>
+      <h4 class="card-title">
+        <a href="#">Upcoming Research: Framingham Heart Study Insights</a>
+      </h4>
+      <p class="text-muted">
+        This upcoming research focuses on the Framingham Heart Study dataset, aiming to identify critical factors 
+        contributing to cardiovascular disease. Through machine learning and statistical modeling, the study 
+        investigates patterns in risk factors like cholesterol, blood pressure, and lifestyle habits to improve 
+        early detection and prevention strategies.
+      </p>
+      <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModalFramingham">
+        Read More
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Modals for Blog Posts -->
+  <!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+        <div class="modal-body px-4">
+          <div class="img">
+            <img src="images/2048game.png" class="img-fluid" alt="">
+          </div>
+          <div class="content mt-3">
+            <small>By Pawan Kumavat</small><span class="text-muted ms-2">Mar 8,2022</span>
+            <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+            <div class="social-links mt-4">
+              <button href="" class="rounded-pill dribble"><i class="bi bi-dribbble"></i></button>
+              <button href="" class="rounded-pill whatsapp"><i class="bi bi-whatsapp"></i></button>
+              <button href="" class="rounded-pill behance"><i class="bi bi-behance"></i></button>
+            </div>
+            <p class="text-muted mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.
+            </p>
+          </div>
+        </div>
+        <div class="heading px-2">
+          <h3 class="fs-3 ms-3">Leave A Comment</h3>
+        </div>
+        <div class="contact-form ms-3 mt-3 pb-4 px-2">
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Name"/></div>
+          <div class="mb-3"><input type="email" class="form-control" placeholder="E-mail"/></div>
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Mobile No."/></div>
+          <div class="mb-3"><textarea class="form-control" placeholder="Message" rows="5"></textarea></div>
+          <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+        <div class="modal-body px-4">
+          <div class="img">
+            <img src="images/currency-converter.png" class="img-fluid" alt="">
+          </div>
+          <div class="content mt-3">
+            <small>By Pawan Kumavat</small><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
+            <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+            <div class="social-links mt-4">
+              <button href="" class="rounded-pill dribble"><i class="bi bi-dribbble"></i></button>
+              <button href="" class="rounded-pill whatsapp"><i class="bi bi-whatsapp"></i></button>
+              <button href="" class="rounded-pill behance"><i class="bi bi-behance"></i></button>
+            </div>
+            <p class="text-muted mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.
+            </p>
+          </div>
+        </div>
+        <div class="heading px-2">
+          <h3 class="fs-3 ms-3">Leave A Comment</h3>
+        </div>
+        <div class="contact-form ms-3 mt-3 pb-4 px-2">
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Name"/></div>
+          <div class="mb-3"><input type="email" class="form-control" placeholder="E-mail"/></div>
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Mobile No."/></div>
+          <div class="mb-3"><textarea class="form-control" placeholder="Message" rows="5"></textarea></div>
+          <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+        <div class="modal-body px-4">
+          <div class="img">
+            <img src="images/dictionary.png" class="img-fluid" alt="">
+          </div>
+          <div class="content mt-3">
+            <small>By Pawan Kumavat</small><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
+            <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+            <div class="social-links mt-4">
+              <button href="" class="rounded-pill dribble"><i class="bi bi-dribbble"></i></button>
+              <button href="" class="rounded-pill whatsapp"><i class="bi bi-whatsapp"></i></button>
+              <button href="" class="rounded-pill behance"><i class="bi bi-behance"></i></button>
+            </div>
+            <p class="text-muted mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.
+            </p>
+          </div>
+        </div>
+        <div class="heading px-2">
+          <h3 class="fs-3 ms-3">Leave A Comment</h3>
+        </div>
+        <div class="contact-form ms-3 mt-3 pb-4 px-2">
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Name"/></div>
+          <div class="mb-3"><input type="email" class="form-control" placeholder="E-mail"/></div>
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Mobile No."/></div>
+          <div class="mb-3"><textarea class="form-control" placeholder="Message" rows="5"></textarea></div>
+          <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog Section Ends -->
+
+<!-- Contact Section Starts -->
+<section class="contact py-5" id="contact">
+  <!-- Contact Heading -->
+  <div class="heading text-center">
+    <small>Get in Touch</small>
+    <h3>Any Questions? Feel Free to Contact</h3>
+  </div>
+
+  <!-- Contact Details and Form -->
+  <div class="row justify-content-evenly mt-5">
+    
+    <!-- Contact Details -->
+    <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+      
+<!-- Name -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-person-fill"></i>
+    </div>
+    <div class="col-11">
+      <p>Md Ripon Al Mamun</p>
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-envelope-fill"></i>
+    </div>
+    <div class="col-11">
+      <p><a href="mailto:riponalmamunrasel@gmail.com">riponalmamunrasel@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- Address -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-geo-alt-fill"></i>
+    </div>
+    <div class="col-11">
+      <p>B Block, Banasree, Dhaka, Bangladesh</p>
+    </div>
+  </div>
+
+  <!-- Phone -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-telephone-fill"></i>
+    </div>
+    <div class="col-11">
+      <p>+880 1880807962</p>
+    </div>
+  </div>
+
+  <!-- Telegram -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-send-fill"></i>
+    </div>
+    <div class="col-11">
+      <p><a href="http://t.me/ripon_al_mamun" target="_blank">t.me/ripon_al_mamun</a></p>
+    </div>
+  </div>
+
+  <!-- (Optional) GitHub -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-github"></i>
+    </div>
+    <div class="col-11">
+      <p><a href="https://github.com/riponalmamun" target="_blank">https://github.com/riponalmamun</a></p>
+    </div>
+  </div>
+
+  <!-- LinkedIn -->
+  <div class="row justify-content-evenly">
+    <div class="col-1">
+      <i class="bi bi-linkedin"></i>
+    </div>
+    <div class="col-11">
+      <p><a href="https://www.linkedin.com/in/mdriponalmamun/" target="_blank">https://www.linkedin.com/in/mdriponalmamun/</a></p>
+    </div>
+  </div>
+
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+      <div class="contact-form">
+        
+        <!-- Name Input -->
+        <div class="mb-3">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+        </div>
+        
+        <!-- Email Input -->
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+        </div>
+        
+        <!-- Mobile No. Input -->
+        <div class="mb-3">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+        </div>
+        
+        <!-- Message Textarea -->
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+        </div>
+        
+        <!-- Submit Button -->
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Section Ends -->
+
+
+<!-- Back to Top Button -->
+<button
+  type="button"
+  class="btn btn-floating btn-lg rounded-pill"
+  id="btn-back-to-top"
+>
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Footer Section Starts -->
+<footer class="text-center text-muted py-4">
+  
+  <!-- Footer Heading -->
+  <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+  
+  <!-- Footer Navigation Links -->
+  <div class="link-group mt-5" data-aos="fade-up">
+    <a href="#home">Home</a>
+    <div class="vr"></div>
+    <a href="#about">About</a>
+    <div class="vr"></div>
+    <a href="#service">Service</a>
+    <div class="vr"></div>
+    <a href="#portfolio">Portfolio</a>
+    <div class="vr"></div>
+    <a href="#blog">Blog</a>
+    <div class="vr"></div>
+    <a href="#contact">Contact</a>
+  </div>
+  
+<!-- Footer Social Links -->
+<div class="social-links mt-5" data-aos="fade-up">
+  <!-- WhatsApp -->
+  <button onclick="window.open('http://wa.me/+8801880807962', '_blank')" class="rounded-pill whatsapp">
+    <i class="bi bi-whatsapp"></i>
+  </button>
+
+  <!-- GitHub -->
+  <button onclick="window.open('https://github.com/riponalmamun', '_blank')" class="rounded-pill github">
+    <i class="bi bi-github"></i>
+  </button>
+
+  <!-- LinkedIn -->
+  <button onclick="window.open('https://www.linkedin.com/in/mdriponalmamun/', '_blank')" class="rounded-pill linkedin">
+    <i class="bi bi-linkedin"></i>
+  </button>
+
+  <!-- Facebook -->
+  <button onclick="window.open('https://www.facebook.com/riponalmamun.rasel.2/', '_blank')" class="rounded-pill facebook">
+    <i class="bi bi-facebook"></i>
+  </button>
+</div>
+
+  
+  <!-- Footer Divider -->
+  <hr class="text-muted my-4" />
+
+  <!-- Footer Copyright -->
+  <p>Done By | Md Ripon Al Mamun.</p>
+
+</footer>
+<!-- Footer Section Ends -->
+
+<!-- Bootstrap JavaScript CDN Link -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+  crossorigin="anonymous"
+></script>
+
+<!-- AOS Library JavaScript Link -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+  // Initializing AOS Library
+  AOS.init({
+    duration: 1000,
+    offset: 50,
+  });
+</script>
+
+<!-- Custom JS File Linking -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
